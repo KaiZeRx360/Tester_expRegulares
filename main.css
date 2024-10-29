@@ -1,0 +1,91 @@
+body {
+    font-family: 'Courier New', monospace;
+    background-color: #0e0e10;
+    display: flex;
+    justify-content: center;    
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    max-width: 500px;
+    background-color: #1a1a1d;
+    border: 2px solid #ffdd57;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.8);
+    transition: all 0.3s ease-in-out;
+}
+
+.container:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 30px #ffdd57, 0 0 60px #ffdd57;
+}
+
+.title {
+    font-size: 2em;
+    color: #ffdd57;
+    text-shadow: 0 0 10px #ffdd57, 0 0 20px #ffdd57;
+}
+
+.form-label {
+    color: #ffdd57;
+    font-weight: bold;
+    text-shadow: 0 0 5px #ffdd57;
+}
+
+.input-gamer {
+    background-color: #2a2d32;
+    color: #fff;
+    border: 2px solid #ffdd57;
+    box-shadow: 0 0 5px #ffdd57;
+    transition: box-shadow 0.3s ease, border 0.3s ease;
+}
+
+.input-gamer:focus {
+    box-shadow: 0 0 10px #FFA500, 0 0 20px #FFA500;
+    border-color: #FFA500;
+}
+
+#resultado {
+    font-size: 1.5em;
+    transition: all 0.3s ease;
+    color: #fff;
+}
+
+.match {
+    color: #00ff99;
+    text-shadow: 0 0 10px #00ff99;
+}
+
+.no-match {
+    color: #ff5555;
+    text-shadow: 0 0 10px #ff5555;
+}
+
+.highlight {
+    background-color: #00ff99; 
+    color: #000; 
+    font-weight: bold; 
+}
+
+
+
+.btn-success {
+    background: linear-gradient(135deg, #28a745, #1e7e34);
+    border: 2px solid #ffdd57;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    border-radius: 8px;
+    box-shadow: 0 0 10px #ffdd57, 0 0 20px #ffdd57;
+    transition: background 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.btn-success:hover {
+    background: linear-gradient(135deg, #218838, #1c7430);
+    box-shadow: 0 0 15px #ffa500, 0 0 25px #ffa500;
+    transform: scale(1.05);
+}
+
+.btn-success:active {
+    transform: scale(0.95);
+}
